@@ -2,7 +2,7 @@
 
 #version=DEVEL
 install
-url --url=http://merlin.fit.vutbr.cz/mirrors/centos/6/os/x86_64/
+url --url=http://merlin.fit.vutbr.cz/mirrors/centos/6/os/x86_64
 cmdline
 lang en_US.UTF-8
 keyboard us
@@ -49,7 +49,7 @@ repo --name="CentOS"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/os/x
 #repo --name="CentOS Fasttrack"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/fasttrack/x86_64/ --cost=100
 #repo --name="CentOS CR"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/cr/x86_64/ --cost=100
 
-%packages
+%packages --nobase
 @client-mgmt-tools
 @core
 @server-policy
