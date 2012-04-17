@@ -44,7 +44,7 @@ raid /     --fstype=ext4 --level=1 --device=md1 raid.11 raid.12
 raid swap  --fstype=swap --level=1 --device=md2 raid.21 raid.22
 
 repo --name="CentOS"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/os/x86_64/ --cost=100
-repo --name="CentOS Updates"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/updatess/x86_64/ --cost=100
+repo --name="CentOS Updates"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/updates/x86_64/ --cost=100
 repo --name="CentOS Fasttrack"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/fasttrack/x86_64/ --cost=100
 repo --name="CentOS CR"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/cr/x86_64/ --cost=100
 
