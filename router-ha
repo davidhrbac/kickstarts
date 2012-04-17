@@ -52,4 +52,7 @@ repo --name="CentOS CR"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/c
 @client-mgmt-tools
 @core
 @server-policy
+
 %end
+
+reboot --eject
