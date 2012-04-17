@@ -6,7 +6,7 @@ url --url=http://merlin.fit.vutbr.cz/mirrors/centos/6/os/x86_64/
 lang en_US.UTF-8
 keyboard us
 network --onboot yes --device eth0 --bootproto dhcp --ipv6 auto
-network --onboot yes --device eth1 --bootproto dhcp --ipv6 auto
+#network --onboot yes --device eth1 --bootproto dhcp --ipv6 auto
 rootpw  --iscrypted $6$AvpEUZcBY.o3X9bp$U2/WdK/XrcQIXxiMHiGMVBjdLJeQIRZKO2/rr1PwbSRimo5b8M9Fu6346Rfymdwc3tXRZU7ejw0gvPQ1WEFaC/
 firewall --service=ssh
 authconfig --enableshadow --passalgo=sha512
