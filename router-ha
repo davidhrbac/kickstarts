@@ -57,9 +57,6 @@ repo --name="repoforge" --baseurl=http://apt.sw.be/redhat/el5/en/x86_64/rpmforge
 @server-policy
 rpmforge-release
 hrb-release
-iftop
-htop
-etckeeper
 #centos-release-cr
 %end
 
