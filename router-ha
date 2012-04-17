@@ -60,7 +60,7 @@ hrb-release
 iftop
 htop
 etckeeper
-centos-release-cr
+#centos-release-cr
 %end
 
 reboot --eject
