@@ -48,8 +48,8 @@ raid swap  --fstype=swap --level=1 --device=md2 raid.21 raid.22
 repo --name="CentOS Updates"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/updates/x86_64/ --cost=100
 repo --name="CentOS Fasttrack"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/fasttrack/x86_64/ --cost=100
 repo --name="CentOS CR"  --baseurl=http://merlin.fit.vutbr.cz/mirrors/centos/6/cr/x86_64/ --cost=100
-repo --name="hrb" --baseurl=http://webmel53.vsb.cz/hrb33/el5/hrb/stable/x86_64/ --cost=100
-repo --name="repoforge" --baseurl=http://apt.sw.be/redhat/el5/en/x86_64/rpmforge/ --cost=100
+repo --name="hrb" --baseurl=http://webmel53.vsb.cz/hrb33/el6/hrb/stable/x86_64/ --cost=100
+repo --name="repoforge" --baseurl=http://apt.sw.be/redhat/el6/en/x86_64/rpmforge/ --cost=100
 
 %packages --nobase
 @client-mgmt-tools
@@ -57,6 +57,8 @@ repo --name="repoforge" --baseurl=http://apt.sw.be/redhat/el5/en/x86_64/rpmforge
 @server-policy
 rpmforge-release
 hrb-release
+htop
+iftop
 #centos-release-cr
 %end
 
